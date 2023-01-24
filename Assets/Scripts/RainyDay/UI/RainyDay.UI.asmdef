@@ -1,0 +1,21 @@
+{
+    "name": "RainyDay.UI",
+    "rootNamespace": "RainyDay.UI",
+    "references": [
+        "GUID:df7460e9d06281942867007c3382cbfc",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:eb0dffc8a20aff740b15938556372904",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:029c1c1b674aaae47a6841a0b89ad80e",
+        "GUID:dc47925d1a5fa2946bdd37746b2b5d48"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

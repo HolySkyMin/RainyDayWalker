@@ -1,0 +1,42 @@
+{
+    "_stages":
+    {
+        "prologue":
+        {
+            "Unlocked": true,
+            "Visited": false,
+            "Cleared": false
+        },
+        "stage1":
+        {
+            "Unlocked": false,
+            "Visited": false,
+            "Cleared": false
+        },
+        "stage2":
+        {
+            "Unlocked": false,
+            "Visited": false,
+            "Cleared": false
+        },
+        "stage3":
+        {
+            "Unlocked": false,
+            "Visited": false,
+            "Cleared": false
+        },
+        "stage4":
+        {
+            "Unlocked": false,
+            "Visited": false,
+            "Cleared": false
+        },
+        "epilogue":
+        {
+            "Unlocked": false,
+            "Visited": false,
+            "Cleared": false
+        }
+    },
+    "_collectibles": []
+}

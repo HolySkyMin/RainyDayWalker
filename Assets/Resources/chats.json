@@ -1,0 +1,242 @@
+{
+    "prologue_1":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "뉴스", "content": "…다음 소식입니다." },
+            { "talker": "뉴스", "content": "2022 대중문화 축제가 화려한 막을 올렸습니다." },
+            { "talker": "뉴스", "content": "이번 축제는 작년부터 데뷔한 걸그룹들이 총출동하는 것으로 유명한데요." },
+            { "talker": "뉴스", "content": "‘역대급 세대’라고도 불리는 걸그룹들이 보여줄 무대를 기대하는 목소리가 높습니다." },
+            { "talker": "뉴스", "content": "또한 이후 펼쳐질 시상식에서 누가 영예로운 대상을 받을지 역시 뜨거운 관심사입니다…" }
+        ]
+    },
+    "prologue_2":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "예능 방송", "content": "…그러면 이번 대중문화 시상식, 주목받는 걸그룹들을 다시 알아보는 시간을 가질 텐데요." },
+            { "talker": "예능 방송", "content": "우선 알아볼 팀은 바로 SERAPHINE입니다!" },
+            { "talker": "예능 방송", "content": "이번 5월이었죠, 거대 기획사 HIVE를 등에 업고 데뷔한 아이돌인데요." },
+            { "talker": "예능 방송", "content": "그 이름 그대로 고풍스러우면서도 모던한 천사와 같은 모습으로 순식간에 국내외 팬들의 마음을 사로잡았습니다…" }
+        ]
+    },
+    "prologue_3":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "예능 방송", "content": "…하지만 올해의 걸그룹! 이라 하면 이분들을 빼놓을 수가 없죠." },
+            { "talker": "예능 방송", "content": "맞습니다. 바로 올해의 주인공이라고도 불리는 EVE인데요." },
+            { "talker": "예능 방송", "content": "에어쉽 엔터테인먼트라는, 상대적으로 작은 기획사 소속 아이돌임에도 불구하고 절대적인 음원, 음반 파워를 가지게 된 것은" },
+            { "talker": "예능 방송", "content": "EVE의 멤버 개개인의 매력과 에어쉽 엔터테인먼트의 뛰어난 프로듀싱 능력 덕분이 아닐까 합니다…" }
+        ]
+    },
+    "stage1_1":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "인터넷 기사", "content": "걸그룹 원에버(ONE:EVER)가 미니앨범 2집 ‘EVER:HEART’로 컴백했다." },
+            { "talker": "인터넷 기사", "content": "원에버는 이번 앨범에서 자신들의 고유한 컨셉인 고급스러움을 한층 강화한다." },
+            { "talker": "인터넷 기사", "content": "이들의 데뷔 앨범인 ‘EVER:COLOR’는 데뷔 앨범 최대 기록인 초동 8만장을 달성했다." },
+            { "talker": "인터넷 기사", "content": "원에버가 이번 컴백을 통해 단숨에 ‘대세 걸그룹’으로 뛰어오를 수 있을지 주목된다." }
+        ]
+    },
+    "stage1_2":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "커뮤니티", "content": "지금 초동 12만 6천장 ㅋㅋㅋㅋㅋㅋ" },
+            { "talker": "커뮤니티", "content": "막날런 달려서 13만 가즈아~~" },
+            { "talker": "커뮤니티", "content": "앨범샵으로 안달리고 뭐하냐 얘들아 몸뚱아리 일으켜 세워라" },
+            { "talker": "커뮤니티", "content": "원붕이 난생 처음으로 앨범 샀다 원에버 화이팅!" }
+        ]
+    },
+    "stage1_3":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "@pred_record", "content": "<color=blue>#원에버</color> 이번 앨범 이 페이스면 초동 최고기록을 경신할 것으로 예측됨" },
+            { "talker": "@skzh_ever", "content": "<color=blue>@pred_record</color> 으아아아 더이상 못참겠다! 우주 최고의 걸그룹 원 에 버 !!!" },
+            { "talker": "@tidal_life", "content": "<color=blue>@skzh_ever</color> 그래봤자 매국우익그룹 좆에버 ㅋㅋ 망하는게 딱이지" },
+            { "talker": "@skzh_ever", "content": "<color=blue>@tidal_life</color> 지랄하지 말고 짜져계세요 타퀴새끼야" }
+        ]
+    },
+    "stage2_1":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "@skzh_ever", "content": "오늘 <color=blue>#원에버</color> 컴백쇼 사녹 어땠음? 간 사람 좀 알려줘" },
+            { "talker": "@myworld_light", "content": "<color=blue>@skzh_ever</color> 그거 아직 하고 있는데 무대 미쳤음 ㄹㅇ 그냥 와 소리밖에 안 나옴" },
+            { "talker": "@myworld_light", "content": "근데 매니저들이 모여서 뭔가 심각하게 얘기하더라 ㅇㅇ 그게 뭔진 모르겠고" },
+            { "talker": "@skzh_ever", "content": "<color=blue>@myworld_light</color> 아 아직 하고 있구나 ㅎㅎ 그나저나 거기서 폰 어케 하고 있음?" },
+            { "talker": "@myworld_light", "content": "<color=blue>@skzh_ever</color> 다 방법이 있지 ㅋㅋ 아무튼 컴백날 기ㄷ아 잠만 시발" },
+            { "talker": "@skzh_ever", "content": "<color=blue>@myworld_light</color> ??? 뭔 일이야" }
+        ]
+    },
+    "stage2_2":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "인터넷 기사", "content": "오디션 프로그램 ‘프로젝트 에큐도르프’의 조작 의혹이 사실로 밝혀졌다." },
+            { "talker": "인터넷 기사", "content": "해당 프로그램의 총괄PD 이돈영은 오늘 검찰 조사 과정에서 해당 의혹이 사실임을 털어놓았다." },
+            { "talker": "인터넷 기사", "content": "팬들은 남성 그룹을 뽑는 ‘프로젝트 에큐도르프 크로스’의 최종 결과가 조작되었다는 의혹을 제기하였는데, 이것이 사실로 확인된 것이다." },
+            { "talker": "인터넷 기사", "content": "또한 이번 ‘크로스’는 물론, 직전에 진행한 여성 그룹을 뽑는 ‘믹스’에서도 동일한 조작이 이루어진 것이 확인되었다." },
+            { "talker": "인터넷 기사", "content": "이에 따라 ‘크로스’를 통해 데뷔한 ‘크로스원(XROSSONE)’과, ‘믹스’를 통해 데뷔한 ‘원에버(ONE:EVER)’의 향후 거취 역시…" },
+            { "talker": "인터넷 기사", "content": "…한편 이돈영 PD는 에어쉽 엔터테인먼트 등 일부 소속사로부터 방송 우대를 목적으로 한 뇌물과 접대를 받은 혐의를 가지고 있다…" }
+        ]
+    },
+    "stage2_3":
+    {
+        "interval": 0.5,
+        "contents":
+        [
+            { "talker": "커뮤니티", "content": "히ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ쨩" },
+            { "talker": "커뮤니티", "content": "히ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ쨩" },
+            { "talker": "커뮤니티", "content": "아직도 주작돌 빠는 병신들 없제?? ㅋㅋㅋㅋㅋㅋㅋㅋㅋ" },
+            { "talker": "커뮤니티", "content": "히ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ쨩" },
+            { "talker": "커뮤니티", "content": "히ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ쨩" },
+            { "talker": "커뮤니티", "content": "히ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ쨩" },
+            { "talker": "커뮤니티", "content": "네놈들 아이돌은 망했어! 여긴 이제 캬루가 지배한다!" },
+            { "talker": "커뮤니티", "content": "히ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ쨩" },
+            { "talker": "커뮤니티", "content": "(글이 너무 많이 올라와서 다 볼 수가 없다.)" }
+        ]
+    },
+    "stage3_1":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "@oneever_official", "content": "드디어 콘서트가 내일이에요! <color=blue>#포에버</color> 여러분도 기대되시죠?" },
+            { "talker": "@oneever_official", "content": "저희는 내일 콘서트를 위해 마지막까지 열심히 연습하고 있어요~!" },
+            { "talker": "@oneever_official", "content": "비록 여러분과 직접 얼굴을 맞대지는 못하지만, 그러기에 가능한 여러 가지 것들이 준비되어 있으니까요!" },
+            { "talker": "@oneever_official", "content": "많이많이 기대해 주시고, 내일 만나요! <color=blue>#원에버 #EVER_THEATER #20210913</color>" },
+            { "talker": "@skzh_ever", "content": "<color=blue>@oneever_official</color> 기대하고 있을게 원에버 화이팅!!!" },
+            { "talker": "@ksd3365", "content": "<color=blue>@oneever_official</color> 니들은 무슨 낮짝으로 콘서트를 쳐 하는거냐? 빨리 해체나 해라" }
+        ]
+    },
+    "stage3_2":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "커뮤니티", "content": "내일 콘서트 기대되는 포에버면 개추 ㅋㅋㅋㅋ" },
+            { "talker": "커뮤니티", "content": "원붕이들아 같이 세트리스트 궁예나 해보자 ㅇㅇ" },
+            { "talker": "커뮤니티", "content": "타이달 빠는 애들 단톡 걸려서 방 빼니까 조금은 클린해진 듯" },
+            { "talker": "커뮤니티", "content": "### 아직도 주작돌 빠는 병신들 없제?? ㅋㅋㅋㅋㅋㅋㅋㅋㅋ ###" },
+            { "talker": "커뮤니티", "content": "???: 2020년은 타이달의 해" },
+            { "talker": "커뮤니티", "content": "아무튼 우리 애들 볼 생각에 설렌다 ㅎㅎ" }
+        ]
+    },
+    "stage3_3":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "라디오", "content": "…지금 들으신 곡은 BOLDfeel의 ‘Killer’ 였습니다." },
+            { "talker": "라디오", "content": "요즘 이렇다할 걸그룹이 없다고 말씀하시는 분들이 많아요. 하지만 제 생각은 좀 다릅니다." },
+            { "talker": "라디오", "content": "TIDAL, BOLDfeel은 여전히 많은 인기를 자랑하고, TOMO같이 꾸준히 활동을 이어 나가는 그룹도 있습니다." },
+            { "talker": "라디오", "content": "아, 청취자 한 분이 문자를 보내 주셨네요. ‘원에버도 제 주변에서는 굉장히 인기가 많습니다.’…" },
+            { "talker": "라디오", "content": "ONE:EVER요… 어… 음……" },
+            { "talker": "라디오", "content": "자. 그, 그러면, 다음 곡으로 넘어가겠습니다. TIDAL의 ‘GIVE ME MORE’." }
+        ]
+    },
+    "stage4_1":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "@pwp_official", "content": "<color=blue>#평행세계프로젝트</color> 가 오늘부터 <color=blue>#공유공간</color> 에서 전시를 시작합니다!" },
+            { "talker": "@pwp_official", "content": "현장에 오시는 <color=blue>#포에버</color> 분들에게는 ‘평행세계의 개척자’ 명함과 카드를 드립니다." },
+            { "talker": "@pwp_official", "content": "또한 평행세계 프로젝트를 응원하는 다양한 활동 역시 준비되어 있습니다." },
+            { "talker": "@pwp_official", "content": "전시는 오늘부터 5월 30일까지 진행되니 많은 참여 바랍니다. 감사합니다." },
+            { "talker": "@skzh_ever", "content": "<color=blue>@pwp_official</color> 꼭 가겠습니다. 우리의 꿈이 꼭 이루어지기를…" }
+        ]
+    },
+    "stage4_2":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "인터넷 기사", "content": "에어쉽 엔터테인먼트가 새 걸그룹을 준비 중인 것으로 확인되었다." },
+            { "talker": "인터넷 기사", "content": "원에버(ONE:EVER) 멤버 중 두 명의 소속사로 유명한 에어쉽 엔터테인먼트는 최근 ‘EVE’를 상표로 등록했다." },
+            { "talker": "인터넷 기사", "content": "관계자는 ‘우리는 해당 멤버 수준의 비주얼을 가진 연습생이 여러 명이 있다’라고 답해, 사실상 새 걸그룹 준비를 인정하였다." },
+            { "talker": "인터넷 기사", "content": "최근 원에버 팬덤이 원에버 활동 연장을 위한 움직임을 보이는 가운데, 에어쉽 엔터테인먼트의 행보가 주목받고 있다." }
+        ]
+    },
+    "stage4_3":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "논설문", "content": "…특히 주목해야 할 것은 최근 원에버의 팬들이 모여 발족한 ‘평행세계 프로젝트’이다." },
+            { "talker": "논설문", "content": "평행세계 프로젝트는 단순히 팬들이 소속사에 떼를 쓰는 수준의 프로젝트가 아니다." },
+            { "talker": "논설문", "content": "30억이 넘는 돈에 이후의 플랜까지 제시하여, 팬덤이 주도하는 산업을 만들어 가겠다는 선언이다." },
+            { "talker": "논설문", "content": "평행세계 프로젝트가 성공한다면, 이는 대중주도사회를 실현하는 완벽한 사례가 될 것이다…" }
+        ]
+    },
+    "stage4_4":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "커뮤니티", "content": "오늘 공유공간 사람 많을거 같음?" },
+            { "talker": "커뮤니티", "content": "원붕이들아 제발 좀 꼼꼼히 씻고 가라 부탁한다" },
+            { "talker": "커뮤니티", "content": "원에버 보고싶다" },
+            { "talker": "커뮤니티", "content": "공유공간 앞에서 앨범 포카 나눔함" },
+            { "talker": "커뮤니티", "content": "ㅅㅂ 화장실 들왔는데 휴지가 없다 어카냐" }
+        ]
+    },
+    "epilogue_1":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "@liveforeve", "content": "<color=blue>#2022시상식</color> <color=blue>#EVE</color> 이 상도 저 상도 전부 이브꺼!!" },
+            { "talker": "@angel_sera", "content": "올해 고생한 우리 세라핀에게 한표 부탁드립니다 [-_-] <color=blue>#2022시상식</color> <color=blue>#SERAPHINE</color>" },
+            { "talker": "@normuggle", "content": "이번 <color=blue>#2022시상식</color> 보니까, 타이달 때 이후로 다시 한번 걸그룹 시대가 왔구만." },
+            { "talker": "@hypetrain", "content": "<color=blue>@normuggle</color> 근데 왜 타이달은 안보임? 걔네 그렇게 망했음?" },
+            { "talker": "@normuggle", "content": "<color=blue>@hypetrain</color> 걔네 팬덤이 왠지는 모르겠지만 갑자기 사라져서 힘이 많이 빠졌음" }
+        ]
+    },
+    "epilogue_2":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "커뮤니티", "content": "(오피셜) 2022시상식 걸그룹 부문 앨범상 볼드필 수상" },
+            { "talker": "커뮤니티", "content": "와 걸그룹 초동이 밀리언 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ" },
+            { "talker": "커뮤니티", "content": "몇년 사이에 걸그룹 초동이 확 뛰었는데 왜 그런거임?" },
+            { "talker": "커뮤니티", "content": "저게 다 그거잖아 해외 판매량 반영 ㅇㅇ" },
+            { "talker": "커뮤니티", "content": "외퀴들이 그렇게 많이 사준다고? ㅋㅋ 미쳤네" },
+            { "talker": "커뮤니티", "content": "걸그룹 1군들이 초동 20만장 넘긴게 재작년 후반부터임 ㅇㅇ 생각보다 오래됐어" }
+        ]
+    },
+    "epilogue_3":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "라디오", "content": "…그러면 발표하겠습니다." },
+            { "talker": "라디오", "content": "2022 대중문화 시상식 걸그룹 부문, 그 영광의 대상은……" },
+            { "talker": "라디오", "content": "…EVE입니다! 축하드립니다!" }
+        ]
+    },
+    "after_2":
+    {
+        "interval": 2,
+        "contents":
+        [
+            { "talker": "뉴스", "content": "…다음 소식입니다." },
+            { "talker": "뉴스", "content": "우리나라에서 가장 거대한 기획사였던 HIVE마저 오늘 부도를 선언했습니다." },
+            { "talker": "뉴스", "content": "이로서 한때 엄청난 인기를 자랑했던 케이팝 산업의 규모는 전성기의 100분의 1 아래로 줄어들었습니다." },
+            { "talker": "뉴스", "content": "케이팝 산업이 몰락의 길에 빠진 것은 산업이 소비자를 소비자로서 대하지 않았기 때문이라는 분석이 나옵니다…" }
+        ]
+    }
+}
