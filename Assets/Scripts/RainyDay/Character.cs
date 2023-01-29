@@ -94,6 +94,7 @@ namespace RainyDay
 
             public override void OnEnter()
             {
+                Parent.jumpIndicator.transform.SetParent(null);
                 Parent.jumpIndicator.transform.position = new Vector3(
                     Parent.transform.position.x,
                     0f,
@@ -203,6 +204,7 @@ namespace RainyDay
                 _motionSpeed = 1 / duration;
                 _released = false;
 
+                Parent.jumpIndicator.transform.SetParent(Parent.transform);
                 Parent.jumpIndicator.SetActive(false);
                 // Parent.JumpTo(Parent.transform.position + Parent._nextJumpRange * Parent._moveDirection);
                 Parent.Jump().Forget();
