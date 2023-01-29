@@ -1200,6 +1200,7 @@ GameObject:
   - component: {fileID: 106012708}
   - component: {fileID: 106012707}
   - component: {fileID: 106012706}
+  - component: {fileID: 106012709}
   m_Layer: 5
   m_Name: Chat Button (18)
   m_TagString: Untagged
@@ -1322,6 +1323,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106012704}
   m_CullTransparentMesh: 1
+--- !u!114 &106012709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106012704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &127442145
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,9 +1389,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 1640}
+  m_SizeDelta: {x: 450, y: 1640}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &127442147
 MonoBehaviour:
@@ -2053,6 +2067,7 @@ GameObject:
   - component: {fileID: 176908684}
   - component: {fileID: 176908683}
   - component: {fileID: 176908685}
+  - component: {fileID: 176908686}
   m_Layer: 5
   m_Name: Collectible Button (3)
   m_TagString: Untagged
@@ -2175,6 +2190,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &176908686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176908681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1 &190390303
 GameObject:
   m_ObjectHideFlags: 0
@@ -2701,6 +2729,7 @@ GameObject:
   - component: {fileID: 243837535}
   - component: {fileID: 243837534}
   - component: {fileID: 243837533}
+  - component: {fileID: 243837537}
   m_Layer: 5
   m_Name: Chat Button (5)
   m_TagString: Untagged
@@ -2823,6 +2852,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -480}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &243837537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243837532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &265667006
 GameObject:
   m_ObjectHideFlags: 0
@@ -2917,6 +2959,7 @@ GameObject:
   - component: {fileID: 266391629}
   - component: {fileID: 266391628}
   - component: {fileID: 266391630}
+  - component: {fileID: 266391631}
   m_Layer: 5
   m_Name: Collectible Button (1)
   m_TagString: Untagged
@@ -3039,6 +3082,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &266391631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266391626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1 &268800825
 GameObject:
   m_ObjectHideFlags: 0
@@ -4029,6 +4085,7 @@ GameObject:
   - component: {fileID: 410116832}
   - component: {fileID: 410116831}
   - component: {fileID: 410116830}
+  - component: {fileID: 410116834}
   m_Layer: 5
   m_Name: Chat Button (1)
   m_TagString: Untagged
@@ -4151,6 +4208,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -140}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &410116834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410116829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &417402928
 GameObject:
   m_ObjectHideFlags: 0
@@ -4973,6 +5043,7 @@ GameObject:
   - component: {fileID: 551004596}
   - component: {fileID: 551004595}
   - component: {fileID: 551004597}
+  - component: {fileID: 551004598}
   m_Layer: 5
   m_Name: Collectible Button (6)
   m_TagString: Untagged
@@ -5095,6 +5166,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &551004598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551004593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1 &560006075
 GameObject:
   m_ObjectHideFlags: 0
@@ -5418,6 +5502,7 @@ GameObject:
   - component: {fileID: 611480289}
   - component: {fileID: 611480288}
   - component: {fileID: 611480290}
+  - component: {fileID: 611480291}
   m_Layer: 5
   m_Name: Collectible Button (7)
   m_TagString: Untagged
@@ -5540,6 +5625,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &611480291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611480286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1 &642441770
 GameObject:
   m_ObjectHideFlags: 0
@@ -5552,6 +5650,7 @@ GameObject:
   - component: {fileID: 642441773}
   - component: {fileID: 642441772}
   - component: {fileID: 642441774}
+  - component: {fileID: 642441775}
   m_Layer: 5
   m_Name: Collectible Button (4)
   m_TagString: Untagged
@@ -5674,6 +5773,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &642441775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642441770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1 &654000869
 GameObject:
   m_ObjectHideFlags: 0
@@ -6411,6 +6523,7 @@ GameObject:
   - component: {fileID: 709588908}
   - component: {fileID: 709588907}
   - component: {fileID: 709588909}
+  - component: {fileID: 709588910}
   m_Layer: 5
   m_Name: Collectible Button (2)
   m_TagString: Untagged
@@ -6533,6 +6646,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &709588910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709588905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1 &722326745
 GameObject:
   m_ObjectHideFlags: 0
@@ -6758,6 +6884,7 @@ GameObject:
   - component: {fileID: 741812846}
   - component: {fileID: 741812845}
   - component: {fileID: 741812847}
+  - component: {fileID: 741812848}
   m_Layer: 5
   m_Name: Collectible Button (8)
   m_TagString: Untagged
@@ -6880,6 +7007,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &741812848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741812843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1 &745109053
 GameObject:
   m_ObjectHideFlags: 0
@@ -6892,6 +7032,7 @@ GameObject:
   - component: {fileID: 745109056}
   - component: {fileID: 745109055}
   - component: {fileID: 745109054}
+  - component: {fileID: 745109058}
   m_Layer: 5
   m_Name: Chat Button (17)
   m_TagString: Untagged
@@ -7014,6 +7155,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -1500}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &745109058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745109053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &757698863
 GameObject:
   m_ObjectHideFlags: 0
@@ -7025,7 +7179,7 @@ GameObject:
   - component: {fileID: 757698864}
   - component: {fileID: 757698867}
   - component: {fileID: 757698866}
-  - component: {fileID: 757698865}
+  - component: {fileID: 757698868}
   m_Layer: 5
   m_Name: Button Panel
   m_TagString: Untagged
@@ -7056,36 +7210,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &757698865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757698863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Content: {fileID: 917729612}
-  m_Horizontal: 1
-  m_Vertical: 1
-  m_MovementType: 1
-  m_Elasticity: 0.1
-  m_Inertia: 1
-  m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
-  m_Viewport: {fileID: 918962204}
-  m_HorizontalScrollbar: {fileID: 1072161350}
-  m_VerticalScrollbar: {fileID: 1578176968}
-  m_HorizontalScrollbarVisibility: 2
-  m_VerticalScrollbarVisibility: 1
-  m_HorizontalScrollbarSpacing: -3
-  m_VerticalScrollbarSpacing: -3
-  m_OnValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &757698866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7129,6 +7253,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757698863}
   m_CullTransparentMesh: 1
+--- !u!114 &757698868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757698863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2ad37790972c24dacf27fc6b9e826c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 917729612}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 918962204}
+  m_HorizontalScrollbar: {fileID: 1072161350}
+  m_VerticalScrollbar: {fileID: 1578176968}
+  m_HorizontalScrollbarVisibility: 2
+  m_VerticalScrollbarVisibility: 1
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &772943401
 GameObject:
   m_ObjectHideFlags: 0
@@ -7217,6 +7371,7 @@ GameObject:
   - component: {fileID: 776810060}
   - component: {fileID: 776810059}
   - component: {fileID: 776810058}
+  - component: {fileID: 776810061}
   m_Layer: 5
   m_Name: Chat Button
   m_TagString: Untagged
@@ -7339,6 +7494,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 776810056}
   m_CullTransparentMesh: 1
+--- !u!114 &776810061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776810056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &778993072
 GameObject:
   m_ObjectHideFlags: 0
@@ -7642,6 +7810,7 @@ GameObject:
   - component: {fileID: 806190441}
   - component: {fileID: 806190440}
   - component: {fileID: 806190439}
+  - component: {fileID: 806190443}
   m_Layer: 5
   m_Name: Chat Button (10)
   m_TagString: Untagged
@@ -7764,6 +7933,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -905}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &806190443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806190438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &815401715
 GameObject:
   m_ObjectHideFlags: 0
@@ -13654,9 +13836,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 1045}
+  m_SizeDelta: {x: 450, y: 1045}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &917729613
 MonoBehaviour:
@@ -13877,6 +14059,7 @@ GameObject:
   - component: {fileID: 934228940}
   - component: {fileID: 934228939}
   - component: {fileID: 934228938}
+  - component: {fileID: 934228942}
   m_Layer: 5
   m_Name: Chat Button (13)
   m_TagString: Untagged
@@ -13999,6 +14182,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -1160}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &934228942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934228937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &940356998
 GameObject:
   m_ObjectHideFlags: 0
@@ -14216,6 +14412,7 @@ GameObject:
   - component: {fileID: 983985999}
   - component: {fileID: 983985998}
   - component: {fileID: 983985997}
+  - component: {fileID: 983986001}
   m_Layer: 5
   m_Name: Chat Button (7)
   m_TagString: Untagged
@@ -14338,6 +14535,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -650}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &983986001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983985996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &985171170
 GameObject:
   m_ObjectHideFlags: 0
@@ -14486,6 +14696,7 @@ GameObject:
   - component: {fileID: 1000599269}
   - component: {fileID: 1000599268}
   - component: {fileID: 1000599270}
+  - component: {fileID: 1000599271}
   m_Layer: 5
   m_Name: Collectible Button (5)
   m_TagString: Untagged
@@ -14608,6 +14819,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1000599271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000599266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1 &1003310787
 GameObject:
   m_ObjectHideFlags: 0
@@ -15377,6 +15601,7 @@ GameObject:
   - component: {fileID: 1044526889}
   - component: {fileID: 1044526888}
   - component: {fileID: 1044526887}
+  - component: {fileID: 1044526891}
   m_Layer: 5
   m_Name: Collectible Button (11)
   m_TagString: Untagged
@@ -15499,6 +15724,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -990}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1044526891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044526886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1 &1065092022
 GameObject:
   m_ObjectHideFlags: 0
@@ -17823,6 +18061,7 @@ GameObject:
   - component: {fileID: 1343254379}
   - component: {fileID: 1343254378}
   - component: {fileID: 1343254377}
+  - component: {fileID: 1343254381}
   m_Layer: 5
   m_Name: Chat Button (14)
   m_TagString: Untagged
@@ -17945,6 +18184,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -1245}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1343254381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343254376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &1379555467
 GameObject:
   m_ObjectHideFlags: 0
@@ -18060,6 +18312,7 @@ GameObject:
   - component: {fileID: 1407215802}
   - component: {fileID: 1407215801}
   - component: {fileID: 1407215800}
+  - component: {fileID: 1407215804}
   m_Layer: 5
   m_Name: Chat Button (2)
   m_TagString: Untagged
@@ -18182,6 +18435,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -225}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1407215804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407215799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &1446214903
 GameObject:
   m_ObjectHideFlags: 0
@@ -18751,6 +19017,7 @@ GameObject:
   - component: {fileID: 1471013417}
   - component: {fileID: 1471013416}
   - component: {fileID: 1471013418}
+  - component: {fileID: 1471013419}
   m_Layer: 5
   m_Name: Collectible Button (9)
   m_TagString: Untagged
@@ -18873,6 +19140,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1471013419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471013414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1 &1483326657
 GameObject:
   m_ObjectHideFlags: 0
@@ -19449,6 +19729,7 @@ GameObject:
   - component: {fileID: 1540068500}
   - component: {fileID: 1540068499}
   - component: {fileID: 1540068498}
+  - component: {fileID: 1540068502}
   m_Layer: 5
   m_Name: Chat Button (15)
   m_TagString: Untagged
@@ -19571,6 +19852,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -1330}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1540068502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540068497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &1540072943
 GameObject:
   m_ObjectHideFlags: 0
@@ -20763,6 +21057,7 @@ GameObject:
   - component: {fileID: 1637598006}
   - component: {fileID: 1637598005}
   - component: {fileID: 1637598004}
+  - component: {fileID: 1637598008}
   m_Layer: 5
   m_Name: Chat Button (6)
   m_TagString: Untagged
@@ -20885,6 +21180,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -565}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1637598008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637598003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &1643550969
 GameObject:
   m_ObjectHideFlags: 0
@@ -21111,6 +21419,7 @@ GameObject:
   - component: {fileID: 1664427338}
   - component: {fileID: 1664427337}
   - component: {fileID: 1664427336}
+  - component: {fileID: 1664427340}
   m_Layer: 5
   m_Name: Chat Button (11)
   m_TagString: Untagged
@@ -21233,6 +21542,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -990}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1664427340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664427335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &1683835457
 GameObject:
   m_ObjectHideFlags: 0
@@ -21245,6 +21567,7 @@ GameObject:
   - component: {fileID: 1683835460}
   - component: {fileID: 1683835459}
   - component: {fileID: 1683835458}
+  - component: {fileID: 1683835462}
   m_Layer: 5
   m_Name: Chat Button (12)
   m_TagString: Untagged
@@ -21367,6 +21690,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -1075}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1683835462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683835457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &1692779328
 GameObject:
   m_ObjectHideFlags: 0
@@ -21515,6 +21851,7 @@ GameObject:
   - component: {fileID: 1703437225}
   - component: {fileID: 1703437224}
   - component: {fileID: 1703437223}
+  - component: {fileID: 1703437227}
   m_Layer: 5
   m_Name: Chat Button (4)
   m_TagString: Untagged
@@ -21637,6 +21974,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -395}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1703437227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703437222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &1719019936
 GameObject:
   m_ObjectHideFlags: 0
@@ -22445,6 +22795,7 @@ GameObject:
   - component: {fileID: 1818078295}
   - component: {fileID: 1818078294}
   - component: {fileID: 1818078293}
+  - component: {fileID: 1818078297}
   m_Layer: 5
   m_Name: Chat Button (3)
   m_TagString: Untagged
@@ -22567,6 +22918,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -310}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1818078297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818078292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &1818155135
 GameObject:
   m_ObjectHideFlags: 0
@@ -22925,6 +23289,7 @@ GameObject:
   - component: {fileID: 1862889793}
   - component: {fileID: 1862889792}
   - component: {fileID: 1862889794}
+  - component: {fileID: 1862889795}
   m_Layer: 5
   m_Name: Collectible Button (10)
   m_TagString: Untagged
@@ -23047,6 +23412,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1862889795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862889790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1001 &1866577839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23271,7 +23649,7 @@ GameObject:
   - component: {fileID: 1875349003}
   - component: {fileID: 1875349006}
   - component: {fileID: 1875349005}
-  - component: {fileID: 1875349004}
+  - component: {fileID: 1875349007}
   m_Layer: 5
   m_Name: Button Panel
   m_TagString: Untagged
@@ -23302,36 +23680,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1875349004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1875349002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Content: {fileID: 127442146}
-  m_Horizontal: 1
-  m_Vertical: 1
-  m_MovementType: 1
-  m_Elasticity: 0.1
-  m_Inertia: 1
-  m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
-  m_Viewport: {fileID: 1564340770}
-  m_HorizontalScrollbar: {fileID: 1324515748}
-  m_VerticalScrollbar: {fileID: 582678920}
-  m_HorizontalScrollbarVisibility: 2
-  m_VerticalScrollbarVisibility: 1
-  m_HorizontalScrollbarSpacing: -3
-  m_VerticalScrollbarSpacing: -3
-  m_OnValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1875349005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23375,6 +23723,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875349002}
   m_CullTransparentMesh: 1
+--- !u!114 &1875349007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875349002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a2ad37790972c24dacf27fc6b9e826c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 127442146}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 1564340770}
+  m_HorizontalScrollbar: {fileID: 1324515748}
+  m_VerticalScrollbar: {fileID: 582678920}
+  m_HorizontalScrollbarVisibility: 2
+  m_VerticalScrollbarVisibility: 1
+  m_HorizontalScrollbarSpacing: 0
+  m_VerticalScrollbarSpacing: 0
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1877875088
 GameObject:
   m_ObjectHideFlags: 0
@@ -23689,6 +24067,7 @@ GameObject:
   - component: {fileID: 1894998795}
   - component: {fileID: 1894998794}
   - component: {fileID: 1894998793}
+  - component: {fileID: 1894998797}
   m_Layer: 5
   m_Name: Chat Button (8)
   m_TagString: Untagged
@@ -23811,6 +24190,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -735}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1894998797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894998792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &1896555851
 GameObject:
   m_ObjectHideFlags: 0
@@ -23950,6 +24342,7 @@ GameObject:
   - component: {fileID: 1897158326}
   - component: {fileID: 1897158325}
   - component: {fileID: 1897158324}
+  - component: {fileID: 1897158328}
   m_Layer: 5
   m_Name: Chat Button (16)
   m_TagString: Untagged
@@ -24072,6 +24465,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -1415}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1897158328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897158323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &1899187752
 GameObject:
   m_ObjectHideFlags: 0
@@ -29451,6 +29857,7 @@ GameObject:
   - component: {fileID: 1948839437}
   - component: {fileID: 1948839436}
   - component: {fileID: 1948839435}
+  - component: {fileID: 1948839438}
   m_Layer: 5
   m_Name: Collectible Button
   m_TagString: Untagged
@@ -29573,6 +29980,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1948839433}
   m_CullTransparentMesh: 1
+--- !u!114 &1948839438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948839433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 757698868}
 --- !u!1 &1978432145
 GameObject:
   m_ObjectHideFlags: 0
@@ -30548,6 +30968,7 @@ GameObject:
   - component: {fileID: 2129797592}
   - component: {fileID: 2129797591}
   - component: {fileID: 2129797590}
+  - component: {fileID: 2129797594}
   m_Layer: 5
   m_Name: Chat Button (9)
   m_TagString: Untagged
@@ -30670,6 +31091,19 @@ RectTransform:
   m_AnchoredPosition: {x: 225.00002, y: -820}
   m_SizeDelta: {x: 400.00003, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2129797594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129797589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f643971d1d274ad40aec007a7457a328, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollRect: {fileID: 1875349007}
 --- !u!1 &2131158084
 GameObject:
   m_ObjectHideFlags: 0
