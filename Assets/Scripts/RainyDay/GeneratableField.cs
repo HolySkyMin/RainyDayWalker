@@ -14,6 +14,7 @@ namespace RainyDay
         [SerializeField, Range(0, 100)] int prebakedWaterLevel = 50;
         [SerializeField] float prebakedNoiseDensity = 20;
         [SerializeField] float prebakeSeedX, prebakeSeedZ;
+        [SerializeField] bool stretchWaterObject;
 
         const float MAX_HEIGHT = 0.2f;
 
@@ -96,8 +97,17 @@ namespace RainyDay
             GetComponent<MeshCollider>().sharedMesh = _mesh;
 
             // Configuring Water Object
-            waterObject.transform.localPosition = new Vector3(length / 2f, MAX_HEIGHT * waterLevel / 100f, width / 2f);
-            waterObject.transform.localScale = new Vector3(length / 10f, 0.0001f, width / 10f);
+            if (stretchWaterObject)
+            {
+                waterObject.transform.localPosition = new Vector3(length / 2f, MAX_HEIGHT * waterLevel / 100f, width / 2f);
+                waterObject.transform.localScale = new Vector3(length / 10f, 0.0001f, width / 10f);
+            }
+            else
+                waterObject.transform.localPosition = new Vector3(
+                    waterObject.transform.localPosition.x,
+                    MAX_HEIGHT * waterLevel / 100,
+                    waterObject.transform.localPosition.z
+                );
             waterObject.SetActive(true);
         }
     }
