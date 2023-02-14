@@ -60,7 +60,7 @@ public class LobbyScene : MonoBehaviour
 
     public void OnInfiniteWalkButtonClick()
     {
-
+        API.Scene.Change("ArcadeStage", invokeChangeEnd: false);
     }
 
     public void OnResetButtonClick()

@@ -1,7 +1,7 @@
 [
     { "type": 3, "content": "dialogue_normal" },
     { "type": 0, "content": "세상은 변했고,\n나의 기억은 부정당했다." },
-    { "type": 1, "content": "나는 똑똑히 기억한다,\n그들이 존재했다는 사실을.", "imageKey": "illust_1" },
+    { "type": 1, "content": "나는 똑똑히 기억한다,\n그들이 존재했다는 사실을.", "imageKey": "illust_01" },
     { "type": 1, "content": "내가 그들을 한껏\n응원했었다는 사실을." },
     { "type": 1, "content": "그리고 분명 수많은 사람들이\n그런 나와 함께했었다는 사실을."},
     { "type": 0, "content": "하지만 이제, 그 누구도\n그들을 기억하지 않는다."},

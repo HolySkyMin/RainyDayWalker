@@ -485,6 +485,9 @@ namespace RainyDay
         public bool IsStandingOnWater()
         {
             Physics.Raycast(transform.position + new Vector3(0, 0.5f, 0), Vector3.down, out RaycastHit hit);
+            if (!hit.collider)
+                return false;
+            
             if (hit.collider.gameObject.layer == 4)
                 return true;
             else 

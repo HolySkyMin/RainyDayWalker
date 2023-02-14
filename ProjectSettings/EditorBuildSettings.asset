@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stage_stage4.unity
     guid: 53a76a81004fcc94c91c884d08af43ed
+  - enabled: 1
+    path: Assets/Scenes/ArcadeStage.unity
+    guid: 082814ab5bdeeee428fce97ef815e79a
   m_configObjects: {}

@@ -21,7 +21,14 @@ namespace RainyDay
 
         public ISet<int> Collectibles => _collectibles;
 
+        public float ArcadeHighscore
+        {
+            get => _arcadeHighscore;
+            set => _arcadeHighscore = value;
+        }
+
         [JsonProperty] Dictionary<string, StageData> _stages;
         [JsonProperty] SortedSet<int> _collectibles;
+        [JsonProperty] float _arcadeHighscore;
     }
 }

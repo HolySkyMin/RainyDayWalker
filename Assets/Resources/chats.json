@@ -60,10 +60,10 @@
         "interval": 2,
         "contents":
         [
-            { "talker": "@pred_record", "content": "<color=blue>#원에버</color> 이번 앨범 이 페이스면 초동 최고기록을 경신할 것으로 예측됨" },
-            { "talker": "@skzh_ever", "content": "<color=blue>@pred_record</color> 으아아아 더이상 못참겠다! 우주 최고의 걸그룹 원 에 버 !!!" },
-            { "talker": "@tidal_life", "content": "<color=blue>@skzh_ever</color> 그래봤자 매국우익그룹 좆에버 ㅋㅋ 망하는게 딱이지" },
-            { "talker": "@skzh_ever", "content": "<color=blue>@tidal_life</color> 지랄하지 말고 짜져계세요 타퀴새끼야" }
+            { "talker": "케이팝 기록봇  <color=#808080>@pred_record</color>", "content": "<color=blue>#원에버</color> 이번 앨범 이 페이스면 초동 최고기록을 경신할 것으로 예측됨" },
+            { "talker": "원에버 사랑해  <color=#808080>@skzh_ever</color>", "content": "<color=blue>@pred_record</color> 으아아아 더이상 못참겠다! 우주 최고의 걸그룹 원 에 버 !!!" },
+            { "talker": "갓등 타이달  <color=#808080>@tidal_life</color>", "content": "<color=blue>@skzh_ever</color> 그래봤자 매국우익그룹 좆에버 ㅋㅋ 망하는게 딱이지" },
+            { "talker": "원에버 사랑해  <color=#808080>@skzh_ever</color>", "content": "<color=blue>@tidal_life</color> 지랄하지 말고 짜져계세요 타퀴새끼야" }
         ]
     },
     "stage2_1":
@@ -71,12 +71,12 @@
         "interval": 2,
         "contents":
         [
-            { "talker": "@skzh_ever", "content": "오늘 <color=blue>#원에버</color> 컴백쇼 사녹 어땠음? 간 사람 좀 알려줘" },
-            { "talker": "@myworld_light", "content": "<color=blue>@skzh_ever</color> 그거 아직 하고 있는데 무대 미쳤음 ㄹㅇ 그냥 와 소리밖에 안 나옴" },
-            { "talker": "@myworld_light", "content": "근데 매니저들이 모여서 뭔가 심각하게 얘기하더라 ㅇㅇ 그게 뭔진 모르겠고" },
-            { "talker": "@skzh_ever", "content": "<color=blue>@myworld_light</color> 아 아직 하고 있구나 ㅎㅎ 그나저나 거기서 폰 어케 하고 있음?" },
-            { "talker": "@myworld_light", "content": "<color=blue>@skzh_ever</color> 다 방법이 있지 ㅋㅋ 아무튼 컴백날 기ㄷ아 잠만 시발" },
-            { "talker": "@skzh_ever", "content": "<color=blue>@myworld_light</color> ??? 뭔 일이야" }
+            { "talker": "원에버 컴백 많관부  <color=#808080>@skzh_ever</color>", "content": "오늘 <color=blue>#원에버</color> 컴백쇼 사녹 어땠음? 간 사람 좀 알려줘" },
+            { "talker": "나의세상 나의빛 원에버  <color=#808080>@myworld_light</color>", "content": "<color=blue>@skzh_ever</color> 그거 아직 하고 있는데 무대 미쳤음 ㄹㅇ 그냥 와 소리밖에 안 나옴" },
+            { "talker": "나의세상 나의빛 원에버  <color=#808080>@myworld_light</color>", "content": "근데 매니저들이 모여서 뭔가 심각하게 얘기하더라 ㅇㅇ 그게 뭔진 모르겠고" },
+            { "talker": "원에버 컴백 많관부  <color=#808080>@skzh_ever</color>", "content": "<color=blue>@myworld_light</color> 아 아직 하고 있구나 ㅎㅎ 그나저나 거기서 폰 어케 하고 있음?" },
+            { "talker": "나의세상 나의빛 원에버  <color=#808080>@myworld_light</color>", "content": "<color=blue>@skzh_ever</color> 다 방법이 있지 ㅋㅋ 아무튼 컴백날 기ㄷ아 잠만 시발" },
+            { "talker": "원에버 컴백 많관부  <color=#808080>@skzh_ever</color>", "content": "<color=blue>@myworld_light</color> ??? 뭔 일이야" }
         ]
     },
     "stage2_2":
@@ -113,12 +113,12 @@
         "interval": 2,
         "contents":
         [
-            { "talker": "@oneever_official", "content": "드디어 콘서트가 내일이에요! <color=blue>#포에버</color> 여러분도 기대되시죠?" },
-            { "talker": "@oneever_official", "content": "저희는 내일 콘서트를 위해 마지막까지 열심히 연습하고 있어요~!" },
-            { "talker": "@oneever_official", "content": "비록 여러분과 직접 얼굴을 맞대지는 못하지만, 그러기에 가능한 여러 가지 것들이 준비되어 있으니까요!" },
-            { "talker": "@oneever_official", "content": "많이많이 기대해 주시고, 내일 만나요! <color=blue>#원에버 #EVER_THEATER #20210913</color>" },
-            { "talker": "@skzh_ever", "content": "<color=blue>@oneever_official</color> 기대하고 있을게 원에버 화이팅!!!" },
-            { "talker": "@ksd3365", "content": "<color=blue>@oneever_official</color> 니들은 무슨 낮짝으로 콘서트를 쳐 하는거냐? 빨리 해체나 해라" }
+            { "talker": "ONE:EVER  <color=#808080>@oneever_official</color>", "content": "드디어 콘서트가 내일이에요! <color=blue>#포에버</color> 여러분도 기대되시죠?" },
+            { "talker": "ONE:EVER  <color=#808080>@oneever_official</color>", "content": "저희는 내일 콘서트를 위해 마지막까지 열심히 연습하고 있어요~!" },
+            { "talker": "ONE:EVER  <color=#808080>@oneever_official</color>", "content": "비록 여러분과 직접 얼굴을 맞대지는 못하지만, 그러기에 가능한 여러 가지 것들이 준비되어 있으니까요!" },
+            { "talker": "ONE:EVER  <color=#808080>@oneever_official</color>", "content": "많이많이 기대해 주시고, 내일 만나요! <color=blue>#원에버 #EVER_THEATER #20210913</color>" },
+            { "talker": "그래도 나는 포에버  <color=#808080>@skzh_ever</color>", "content": "<color=blue>@oneever_official</color> 기대하고 있을게 원에버 화이팅!!!" },
+            { "talker": "김상덕  <color=#808080>@ksd3365</color>", "content": "<color=blue>@oneever_official</color> 니들은 무슨 낮짝으로 콘서트를 쳐 하는거냐? 빨리 해체나 해라" }
         ]
     },
     "stage3_2":
@@ -152,11 +152,11 @@
         "interval": 2,
         "contents":
         [
-            { "talker": "@pwp_official", "content": "<color=blue>#평행세계프로젝트</color> 가 오늘부터 <color=blue>#공유공간</color> 에서 전시를 시작합니다!" },
-            { "talker": "@pwp_official", "content": "현장에 오시는 <color=blue>#포에버</color> 분들에게는 ‘평행세계의 개척자’ 명함과 카드를 드립니다." },
-            { "talker": "@pwp_official", "content": "또한 평행세계 프로젝트를 응원하는 다양한 활동 역시 준비되어 있습니다." },
-            { "talker": "@pwp_official", "content": "전시는 오늘부터 5월 30일까지 진행되니 많은 참여 바랍니다. 감사합니다." },
-            { "talker": "@skzh_ever", "content": "<color=blue>@pwp_official</color> 꼭 가겠습니다. 우리의 꿈이 꼭 이루어지기를…" }
+            { "talker": "평행세계 프로젝트  <color=#808080>@pwp_official</color>", "content": "<color=blue>#평행세계프로젝트</color> 가 오늘부터 <color=blue>#공유공간</color> 에서 전시를 시작합니다!" },
+            { "talker": "평행세계 프로젝트  <color=#808080>@pwp_official</color>", "content": "현장에 오시는 <color=blue>#포에버</color> 분들에게는 ‘평행세계의 개척자’ 명함과 카드를 드립니다." },
+            { "talker": "평행세계 프로젝트  <color=#808080>@pwp_official</color>", "content": "또한 평행세계 프로젝트를 응원하는 다양한 활동 역시 준비되어 있습니다." },
+            { "talker": "평행세계 프로젝트  <color=#808080>@pwp_official</color>", "content": "전시는 오늘부터 5월 30일까지 진행되니 많은 참여 바랍니다. 감사합니다." },
+            { "talker": "평행세계의 개척자  <color=#808080>@skzh_ever</color>", "content": "<color=blue>@pwp_official</color> 꼭 가겠습니다. 우리의 꿈이 꼭 이루어지기를…" }
         ]
     },
     "stage4_2":
@@ -198,11 +198,11 @@
         "interval": 2,
         "contents":
         [
-            { "talker": "@liveforeve", "content": "<color=blue>#2022시상식</color> <color=blue>#EVE</color> 이 상도 저 상도 전부 이브꺼!!" },
-            { "talker": "@angel_sera", "content": "올해 고생한 우리 세라핀에게 한표 부탁드립니다 [-_-] <color=blue>#2022시상식</color> <color=blue>#SERAPHINE</color>" },
-            { "talker": "@normuggle", "content": "이번 <color=blue>#2022시상식</color> 보니까, 타이달 때 이후로 다시 한번 걸그룹 시대가 왔구만." },
-            { "talker": "@hypetrain", "content": "<color=blue>@normuggle</color> 근데 왜 타이달은 안보임? 걔네 그렇게 망했음?" },
-            { "talker": "@normuggle", "content": "<color=blue>@hypetrain</color> 걔네 팬덤이 왠지는 모르겠지만 갑자기 사라져서 힘이 많이 빠졌음" }
+            { "talker": "대세는 역시 이브  <color=#808080>@liveforeve</color>", "content": "<color=blue>#2022시상식</color> <color=blue>#EVE</color> 이 상도 저 상도 전부 이브꺼!!" },
+            { "talker": "당당천사애기들  <color=#808080>@angel_sera</color>", "content": "올해 고생한 우리 세라핀에게 한표 부탁드립니다 [-_-] <color=blue>#2022시상식</color> <color=blue>#SERAPHINE</color>" },
+            { "talker": "근데 누구세요 ㅋㅋ  <color=#808080>@normuggle</color>", "content": "이번 <color=blue>#2022시상식</color> 보니까, 타이달 때 이후로 다시 한번 걸그룹 시대가 왔구만." },
+            { "talker": "열차출발합니다  <color=#808080>@hypetrain</color>", "content": "<color=blue>@normuggle</color> 근데 왜 타이달은 안보임? 걔네 그렇게 망했음?" },
+            { "talker": "근데 누구세요 ㅋㅋ  <color=#808080>@normuggle</color>", "content": "<color=blue>@hypetrain</color> 걔네 팬덤이 왠지는 모르겠지만 갑자기 사라져서 힘이 많이 빠졌음" }
         ]
     },
     "epilogue_2":
@@ -228,7 +228,7 @@
             { "talker": "라디오", "content": "…EVE입니다! 축하드립니다!" }
         ]
     },
-    "after_2":
+    "trueend_1":
     {
         "interval": 2,
         "contents":

@@ -8,6 +8,7 @@ namespace RainyDay
     {
         [SerializeField] GameObject waterObject;
         [SerializeField] float tileSize = 10;
+        [SerializeField] bool reverseWaterLevel;
         [Header("Prebake Configuration")]
         [SerializeField] int prebakedWidth = 50;
         [SerializeField] int prebakedLength = 100;  // width => z, length => x
@@ -36,7 +37,7 @@ namespace RainyDay
             if(waterObject != null && waterObject.activeSelf)
                 waterObject.transform.localPosition = new Vector3(
                     waterObject.transform.localPosition.x,
-                    MAX_HEIGHT * prebakedWaterLevel / 100,
+                    MAX_HEIGHT * (reverseWaterLevel ? 100 - prebakedWaterLevel : prebakedWaterLevel) / 100,
                     waterObject.transform.localPosition.z
                 );
         }
@@ -49,6 +50,9 @@ namespace RainyDay
 
         public void GenerateField(int width, int length, int waterLevel, float noiseDensity, float seedX, float seedZ)
         {
+            if (reverseWaterLevel)
+                waterLevel = 100 - waterLevel;
+            
             _mesh = new Mesh()
             {
                 name = "Walking Terrain"
