@@ -3,6 +3,7 @@
     "rootNamespace": "RainyDay",
     "references": [
         "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:f06555f75b070af458a003d92f9efb00",
         "GUID:eb0dffc8a20aff740b15938556372904",
         "GUID:f51ebe6a0ceec4240a699833d6309b23",
         "GUID:593a5b492d29ac6448b1ebf7f035ef33",

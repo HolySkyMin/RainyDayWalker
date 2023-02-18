@@ -78,6 +78,8 @@ namespace RainyDay
                             API.Sound.PlayMusic(data.Content);
                         break;
                     case 10:
+                        DialogueContentRaised?.Invoke(-1, null, null);
+                        await UniTask.Delay(500);
                         await ShowChatAsync(data.Content);
                         ChatKilled?.Invoke();
                         break;

@@ -50,10 +50,14 @@ namespace RainyDay.UI
                 if (_currentType >= 0)
                     typeObjects[_currentType].SetActive(false);
                 await UniTask.Delay(500);
-                typeObjects[type].SetActive(true);
+                if (type >= 0)
+                    typeObjects[type].SetActive(true);
             }
             _currentType = type;
 
+            if (_currentType < 0)
+                return;
+            
             typeTexts[_currentType].SetText(content);
             typeTexts[_currentType].maxVisibleCharacters = 0;
             await UniTask.Yield();
