@@ -2345,6 +2345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waterObject: {fileID: 402414591}
   tileSize: 10
+  reverseWaterLevel: 0
   prebakedWidth: 60
   prebakedLength: 210
   prebakedWaterLevel: 47
@@ -2386,7 +2387,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d0054e2826ae0cc4e8abb517bd8d7ac5, type: 2}
+  - {fileID: 2100000, guid: b8aeadfbddd01c5439d008fadc3f8279, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -50,7 +50,7 @@ MonoBehaviour:
     m_Objects: []
   m_InfiniteClipPreExtrapolation: 1
   m_InfiniteClipPostExtrapolation: 1
-  m_InfiniteClipOffsetPosition: {x: 70, y: 1.575, z: 7.5}
+  m_InfiniteClipOffsetPosition: {x: 90, y: -3, z: 7.5}
   m_InfiniteClipOffsetEulerAngles: {x: 30.000002, y: 45.000008, z: 0.0000019717058}
   m_InfiniteClipTimeOffset: 0
   m_InfiniteClipRemoveOffset: 0
@@ -237,15 +237,15 @@ AnimationClip:
       - serializedVersion: 3
         time: 2
         value: {x: 0, y: 0.0000038146973, z: -0.0000038146973}
-        inSlope: {x: 0, y: 0, z: -0.0000021798269}
-        outSlope: {x: 0, y: 0, z: -0.0000021798269}
+        inSlope: {x: 0, y: 0, z: -0.000002179827}
+        outSlope: {x: 0, y: 0, z: -0.000002179827}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 7
-        value: {x: -51.61879, y: -25.809399, z: -44.703194}
+        value: {x: -65.760925, y: -28.918398, z: -59.23814}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -318,7 +318,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 7
-        value: -51.61879
+        value: -65.760925
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -355,7 +355,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 7
-        value: -25.809399
+        value: -28.918398
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -384,15 +384,15 @@ AnimationClip:
       - serializedVersion: 3
         time: 2
         value: -0.0000038146973
-        inSlope: -0.0000021798269
-        outSlope: -0.0000021798269
+        inSlope: -0.000002179827
+        outSlope: -0.000002179827
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 7
-        value: -44.703194
+        value: -59.23814
         inSlope: 0
         outSlope: 0
         tangentMode: 136

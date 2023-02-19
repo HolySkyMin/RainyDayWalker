@@ -1189,12 +1189,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waterObject: {fileID: 917494161}
   tileSize: 1
+  reverseWaterLevel: 0
   prebakedWidth: 50
   prebakedLength: 145
   prebakedWaterLevel: 47
   prebakedNoiseDensity: 20
   prebakeSeedX: 190407
   prebakeSeedZ: 2.5
+  stretchWaterObject: 0
 --- !u!64 &303134201
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1229,7 +1231,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c413883b1f5da43f595f8475353613de, type: 2}
+  - {fileID: 2100000, guid: 64a4684ba67ced04c811f6174e678a22, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2951,7 +2953,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d0054e2826ae0cc4e8abb517bd8d7ac5, type: 2}
+  - {fileID: 2100000, guid: b8aeadfbddd01c5439d008fadc3f8279, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
