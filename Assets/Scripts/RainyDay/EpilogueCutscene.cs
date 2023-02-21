@@ -13,6 +13,14 @@ namespace RainyDay
 
         public override void Invoke()
         {
+            InvokeAsync().Forget();
+        }
+
+        async UniTaskVoid InvokeAsync()
+        {
+            API.Sound.PauseMusic();
+            await UniTask.Delay(1000);
+            API.Sound.ResumeMusic();
             dimmer.SetActive(false);
             director.Play();
         }
@@ -32,10 +40,14 @@ namespace RainyDay
 
         async UniTask PlayCreditAndTrueEnding()
         {
+            API.Sound.StopMusic();
+            await UniTask.Delay(500);
             await API.Dialogue.ShowDialogueAsync("credit");
 
             if (API.Player.Collectibles.Count == 12)
+            {
                 await API.Dialogue.ShowDialogueAsync("true_end");
+            }
 
             API.SetDataBetweenScene(new DBS<int>() { Value = 0 });
             API.Scene.Change("Lobby", invokeChangeStart: false);

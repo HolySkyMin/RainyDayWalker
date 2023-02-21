@@ -37,7 +37,7 @@ namespace RainyDay
         async UniTaskVoid Invoke()
         {
             await manager.FreezeCharacter();
-            API.Player.Collectibles.Add(index);
+            // API.Player.Collectibles.Add(index);
             onCollectibleGet.Invoke(index);
             Destroy(gameObject);
         }

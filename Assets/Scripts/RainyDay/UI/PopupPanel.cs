@@ -19,7 +19,7 @@ namespace RainyDay.UI
 
             await DOTween.Sequence()
                 .Append(GetComponent<RectTransform>().DOScale(1, time))
-                .Join(GetComponent<CanvasGroup>().DOFade(1, time))
+                .Join(GetComponent<CanvasGroup>().DOFade(1, time)).SetUpdate(true)
                 .Play()
                 .AsyncWaitForCompletion();
         }
@@ -29,7 +29,7 @@ namespace RainyDay.UI
             await DOTween.Sequence()
                 .Append(GetComponent<RectTransform>().DOScale(startScale, time))
                 .Join(GetComponent<CanvasGroup>().DOFade(0, time))
-                .AppendCallback(() => { gameObject.SetActive(false); })
+                .AppendCallback(() => { gameObject.SetActive(false); }).SetUpdate(true)
                 .Play()
                 .AsyncWaitForCompletion();
         }    

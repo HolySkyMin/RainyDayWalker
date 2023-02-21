@@ -33,12 +33,15 @@ namespace RainyDay
 
         int _progressStoryIndex;
         float _totalDistance, _progress;
-        bool _cleared;
+
+        bool _visited, _cleared;
+        List<int> _collectibles;
 
         void Start()
         {
             _totalDistance = finishLine.position.x - startLine.position.x;
             _cleared = false;
+            _collectibles = new List<int>();
 
             character.SetOutOfControl();
             OnStart().Forget();
@@ -88,6 +91,8 @@ namespace RainyDay
                 API.Player.Stages[stageKey].Cleared = true;
             }
 
+            foreach (var collectible in _collectibles)
+                API.Player.Collectibles.Add(collectible);
             API.Manager.SaveGame();
             afterClear.Invoke();
         }
@@ -99,6 +104,11 @@ namespace RainyDay
                 character.SetOutOfControl();
                 onGameOver.Invoke();
             }
+        }
+
+        public void OnCollectibleGet(int index)
+        {
+            _collectibles.Add(index);
         }
 
         public async UniTask FreezeCharacter()

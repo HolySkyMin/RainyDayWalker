@@ -45,6 +45,7 @@ namespace RainyDay
         [SerializeField] GameObject jumpIndicator;
         [SerializeField] GameObject indicatorMaxRange, indicatorPoint;
         [SerializeField] FloodRateChangedEvent onFloodRateChange;
+        [SerializeField] UnityEvent onCancelKeyPressed;
 
         // cinemachine
         float _cinemachineTargetYaw, _cinemachineTargetPitch;
@@ -332,11 +333,15 @@ namespace RainyDay
         public void OnFootstep(AnimationEvent animationEvent)
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
+            {
                 if (IsStandingOnWater())
                 {
                     IncreaseFloodRate(10);
                     API.Sound.PlayOneShotEffect($"water_step_{Random.Range(0, 2) + 1}");
                 }
+                else
+                    API.Sound.PlayOneShotEffect($"normal_step_{Random.Range(0, 4) + 1}");
+            }
         }
 
         #endregion
@@ -445,6 +450,8 @@ namespace RainyDay
                 IncreaseFloodRate(20);
                 API.Sound.PlayOneShotEffect("water_land");
             }
+            else
+                API.Sound.PlayOneShotEffect("normal_land");
         }
 
         public async UniTaskVoid Stop(float initialSpeed)
@@ -472,6 +479,12 @@ namespace RainyDay
                 ActionKeyPressed?.Invoke();
             else
                 ActionKeyReleased?.Invoke();
+        }
+
+        public void OnCancel()
+        {
+            if (_stateMachine.CurrentState.Name != "Out Of Control")
+                onCancelKeyPressed.Invoke();
         }
 
         public bool IsGrounded()
