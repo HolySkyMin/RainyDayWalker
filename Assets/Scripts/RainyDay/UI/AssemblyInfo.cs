@@ -1,0 +1,5 @@
+[assembly: System.Reflection.AssemblyCompany("SNUGDC")]
+[assembly: System.Reflection.AssemblyTitle("Rainy Day Walker UI")]
+[assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("UnitTestAssembly")]
+[assembly: UnityEngine.Scripting.Preserve]
