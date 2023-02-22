@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace RainyDay.UI
@@ -18,8 +19,14 @@ namespace RainyDay.UI
         public void ResumeGame()
         {
             Time.timeScale = 1;
-            character.AllowInput(true);
             gameObject.SetActive(false);
+            DelayedInputAllow().Forget();
+        }
+
+        async UniTaskVoid DelayedInputAllow()
+        {
+            await UniTask.Delay(100);
+            character.AllowInput(true);
         }
 
         public async void GoTiTitle()

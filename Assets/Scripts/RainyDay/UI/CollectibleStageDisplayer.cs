@@ -26,7 +26,7 @@ namespace RainyDay.UI
 
                 GetComponent<CanvasGroup>().alpha = 0;
                 contentPanel.alpha = 0;
-                contentPanel.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -30);
+                contentPanel.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -50);
                 confirmObject.SetActive(false);
                 EventSystem.current.SetSelectedGameObject(null);
 
@@ -49,7 +49,7 @@ namespace RainyDay.UI
             DOTween.Sequence()
                 .Append(GetComponent<CanvasGroup>().DOFade(1, 0.5f))
                 .Append(contentPanel.DOFade(1, 0.5f))
-                .Join(contentPanel.GetComponent<RectTransform>().DOAnchorPosY(0, 0.5f))
+                .Join(contentPanel.GetComponent<RectTransform>().DOAnchorPosY(-20, 0.5f))
                 .InsertCallback(2, () => {
                     confirmObject.SetActive(true);
                     EventSystem.current.SetSelectedGameObject(gameObject);

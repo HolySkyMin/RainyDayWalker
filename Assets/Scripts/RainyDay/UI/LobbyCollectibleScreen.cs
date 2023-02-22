@@ -50,7 +50,12 @@ namespace RainyDay.UI
             
             for (int i = 0; i < chatButtons.Length; i++)
                 foreach (var button in chatButtons[i].Buttons)
-                    button.interactable = API.Player.Stages[chatButtons[i].Key].Cleared;
+                {
+                    if (chatButtons[i].Key == "trueend")
+                        button.interactable = API.Player.Stages["epilogue"].Cleared && API.Player.Collectibles.Count == 12;
+                    else
+                        button.interactable = API.Player.Stages[chatButtons[i].Key].Cleared;
+                }
 
             _ballonObjs = new List<ChatBalloon>();
             _loaded = true;
@@ -79,6 +84,7 @@ namespace RainyDay.UI
             "stage3" => "세 번째 기억",
             "stage4" => "네 번째 기억",
             "epilogue" => "에필로그",
+            "trueend" => "그가 바라는 것",
             _ => "알 수 없는 장소"
         };
 

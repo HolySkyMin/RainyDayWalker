@@ -17,6 +17,8 @@ namespace RainyDay
 
         public float FloodRate => _floodRate;
 
+        public bool IsInvincible => _invincible;
+
         public Vector2 LookDirection => new Vector2(
             Mathf.Cos((transform.eulerAngles.y - 90) * Mathf.Deg2Rad),
             -Mathf.Sin((transform.eulerAngles.y - 90) * Mathf.Deg2Rad));
@@ -62,7 +64,7 @@ namespace RainyDay
 
         // 게임 로직
         float _floodRate, _waterClock;
-        bool _isOnWater;
+        bool _isOnWater, _invincible;
 
         #region States
 
@@ -510,8 +512,11 @@ namespace RainyDay
 
         void IncreaseFloodRate(float delta)
         {
-            _floodRate += delta;
-            onFloodRateChange.Invoke(_floodRate);
+            if (!_invincible)
+            {
+                _floodRate += delta;
+                onFloodRateChange.Invoke(_floodRate);
+            }
         }
 
         public void AllowInput(bool allowInput)
@@ -520,6 +525,11 @@ namespace RainyDay
                 GetComponent<PlayerInput>().currentActionMap.Enable();
             else
                 GetComponent<PlayerInput>().currentActionMap.Disable();
+        }
+
+        public void SetInvincible(bool invincible)
+        {
+            _invincible = invincible;
         }
 
         public void SetOutOfControl()

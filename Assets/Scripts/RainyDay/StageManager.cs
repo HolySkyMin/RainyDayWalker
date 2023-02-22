@@ -74,6 +74,7 @@ namespace RainyDay
             if(!_cleared && _progress >= 1)
             {
                 _cleared = true;
+                character.SetInvincible(true);
                 character.SetOutOfControl();
 
                 OnGameClear().Forget();
@@ -99,7 +100,7 @@ namespace RainyDay
 
         public void OnFloodRateChange(float floodRate)
         {
-            if (_cleared)
+            if (character.IsInvincible)
                 return;
             
             if(floodRate >= 100)
@@ -116,6 +117,7 @@ namespace RainyDay
 
         public async UniTask FreezeCharacter()
         {
+            character.SetInvincible(true);
             await UniTask.WaitWhile(() => character.CurrentState == "Jumping");
             character.SetOutOfControl();
         }
@@ -123,6 +125,7 @@ namespace RainyDay
         public void UnfreezeCharacter()
         {
             character.SetIdle();
+            character.SetInvincible(false);
         }
 
         public void OnRetryButtonClick()
