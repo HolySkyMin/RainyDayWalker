@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6315215ce8e5c7f44b17e4c51e2169d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 864457587}
 --- !u!114 &313291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1845,7 +1846,7 @@ PrefabInstance:
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
       propertyPath: onCancelKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
@@ -1861,7 +1862,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onCancelKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 313289}
+      objectReference: {fileID: 313290}
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
       propertyPath: onFloodRateChange.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -1890,7 +1891,7 @@ PrefabInstance:
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
       propertyPath: onCancelKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: PauseGame
       objectReference: {fileID: 0}
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
@@ -1905,7 +1906,7 @@ PrefabInstance:
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
       propertyPath: onCancelKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: RainyDay.UI.StagePausePanel, RainyDay.UI
       objectReference: {fileID: 0}
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
@@ -2758,10 +2759,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 313289}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 313290}
+        m_TargetAssemblyTypeName: RainyDay.UI.StagePausePanel, RainyDay.UI
+        m_MethodName: ResumeGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

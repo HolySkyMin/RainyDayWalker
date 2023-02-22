@@ -10603,8 +10603,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -30}
-  m_SizeDelta: {x: 1200, y: 600}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 1200, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &293671295
 CanvasGroup:
@@ -14607,7 +14607,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -363}
+  m_AnchoredPosition: {x: 0, y: -450}
   m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1506258531
@@ -14630,7 +14630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "ENTER\uB97C \uB20C\uB7EC \uACC4\uC18D\uD569\uB2C8\uB2E4..."
+  m_text: "\uC561\uC158 \uBC84\uD2BC\uC744 \uB20C\uB7EC \uACC4\uC18D\uD569\uB2C8\uB2E4..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a2c6f62af21bf3d4ca45343ec549f439, type: 2}
   m_sharedMaterial: {fileID: -3249897796682234547, guid: a2c6f62af21bf3d4ca45343ec549f439,
@@ -15857,6 +15857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6315215ce8e5c7f44b17e4c51e2169d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 2120857698}
 --- !u!114 &1759237350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22072,10 +22073,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1759237347}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1759237349}
+        m_TargetAssemblyTypeName: RainyDay.UI.StagePausePanel, RainyDay.UI
+        m_MethodName: ResumeGame
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -22982,7 +22983,7 @@ PrefabInstance:
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
       propertyPath: onCancelKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
@@ -22998,7 +22999,7 @@ PrefabInstance:
         type: 3}
       propertyPath: onCancelKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1759237347}
+      objectReference: {fileID: 1759237349}
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
       propertyPath: onFloodRateChange.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -23027,7 +23028,7 @@ PrefabInstance:
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
       propertyPath: onCancelKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: PauseGame
       objectReference: {fileID: 0}
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
@@ -23042,7 +23043,7 @@ PrefabInstance:
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}
       propertyPath: onCancelKeyPressed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: RainyDay.UI.StagePausePanel, RainyDay.UI
       objectReference: {fileID: 0}
     - target: {fileID: 2499125834089193662, guid: 1fc81f8046d953a479c2af93111b4493,
         type: 3}

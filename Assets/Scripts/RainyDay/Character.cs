@@ -306,6 +306,7 @@ namespace RainyDay
                 if(_waterClock > 1f)
                 {
                     _waterClock -= 1f;
+                    API.Sound.PlayOneShotEffect("water_standing");
                     IncreaseFloodRate(5);
                 }
                 _waterClock += Time.deltaTime;
@@ -511,6 +512,14 @@ namespace RainyDay
         {
             _floodRate += delta;
             onFloodRateChange.Invoke(_floodRate);
+        }
+
+        public void AllowInput(bool allowInput)
+        {
+            if (allowInput)
+                GetComponent<PlayerInput>().currentActionMap.Enable();
+            else
+                GetComponent<PlayerInput>().currentActionMap.Disable();
         }
 
         public void SetOutOfControl()

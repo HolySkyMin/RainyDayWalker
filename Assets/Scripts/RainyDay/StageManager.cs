@@ -99,6 +99,9 @@ namespace RainyDay
 
         public void OnFloodRateChange(float floodRate)
         {
+            if (_cleared)
+                return;
+            
             if(floodRate >= 100)
             {
                 character.SetOutOfControl();

@@ -179,6 +179,8 @@ MonoBehaviour:
   preloads:
   - key: water_land
     clip: {fileID: 8300000, guid: 244c0a28ea919a04fad314801aa73477, type: 3}
+  - key: water_standing
+    clip: {fileID: 8300000, guid: 88471ae1281020c43b535040630cde57, type: 3}
   - key: water_step_1
     clip: {fileID: 8300000, guid: 6eb7ca69a5d561e4699fb91e26b121d1, type: 3}
   - key: water_step_2

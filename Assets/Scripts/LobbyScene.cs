@@ -23,6 +23,8 @@ public class LobbyScene : MonoBehaviour
     {
         var dbs = API.GetDataBetweenScene<DBS<int>>();
         ShowScreen(dbs.Value).Play();
+
+        API.Sound.PlayMusic("lobby");
     }
 
     Sequence ShowScreen(int index)
